@@ -1,0 +1,23 @@
+{
+  "name": "node-feed",
+  "version": "1.0.0",
+  "description": "An online feed parser service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "LeanCloud",
+    "LeanEngine",
+    "feed-parser"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "^1.0.4",
+    "connect": "3.3.5",
+    "feedparser": "1.1.1",
+    "leanengine": "^0.1.0",
+    "request": "2.56.0"
+  }
+}
